@@ -1,0 +1,21 @@
+html{
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  body{
+    background: rgb(238, 238, 238);
+    margin: 0;
+    height: 100%;
+    #app{
+      width: 100%;
+      max-width: 960px;
+      background: white;
+      margin: 0 auto;
+      height: 100%;
+    }
+    .p-toast{
+      z-index: 99999 !important;
+    }
+  }
+}
